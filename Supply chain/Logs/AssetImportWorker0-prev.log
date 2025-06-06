@@ -1,0 +1,2210 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 22000.613; Version 2009; 64bit' Language: 'en' Physical Memory: 32593 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2019.4.32f\2020.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Uni/FinalYear/SupplyChain/SupplyChainFinalNotExe
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50387
+Successfully changed project path to: D:/Uni/FinalYear/SupplyChain/SupplyChainFinalNotExe
+D:/Uni/FinalYear/SupplyChain/SupplyChainFinalNotExe
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 157.59 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.88 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path D:/unity/2019.4.32f/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Uni/FinalYear/SupplyChain/SupplyChainFinalNotExe/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 SUPER (ID=0x1e81)
+    Vendor:   
+    VRAM:     8010 MB
+    Driver:   27.21.14.5167
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'D:/unity/2019.4.32f/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2019.4.32f/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity/2019.4.32f/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2019.4.32f/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001123 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 214.38 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.766 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2766ms)
+		BeginReloadAssembly (53ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (895ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (338ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (406ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (215ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010012 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 133.96 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Uni\FinalYear\SupplyChain\SupplyChainFinalNotExe\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Uni\FinalYear\SupplyChain\SupplyChainFinalNotExe\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.248 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2249ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (2056ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (369ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (1372ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (134ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (1054ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.97 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 5942 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 244.5 MB.
+System memory in use after: 244.9 MB.
+
+Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 6340.
+Total: 8.469600 ms (FindLiveObjects: 0.607100 ms CreateObjectMapping: 0.598400 ms MarkObjects: 7.131900 ms  DeleteObjects: 0.130500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Monitor_Big.prefab
+  artifactKey: Guid(ef7eb3b1602ac8d45abfc750eac5fd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monitor_Big.prefab using Guid(ef7eb3b1602ac8d45abfc750eac5fd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5763557385e0b9d59e48a7d4bda6c0ad') in 0.516677 seconds 
+  Import took 0.527413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.307427 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(32d072abdca498a40946e9f603545c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(32d072abdca498a40946e9f603545c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06393ea43e2bec56347607b45232c4ab') in 0.001589 seconds 
+  Import took 0.009709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.167849 seconds.
+  path: Assets/Scenes/(2) GamePlay
+  artifactKey: Guid(9bdb17a04356d4f438f7f63825ee137d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/(2) GamePlay using Guid(9bdb17a04356d4f438f7f63825ee137d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b43cc205d9dd9aa29f6705bb4b745d') in 0.001532 seconds 
+  Import took 0.010686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.918909 seconds.
+  path: Assets/Scenes/(2) GamePlay/Factory 1.unity
+  artifactKey: Guid(07887eaa38753e747a2bd1ebb31ee5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/(2) GamePlay/Factory 1.unity using Guid(07887eaa38753e747a2bd1ebb31ee5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220e75144d6f99867e8c924cefb6a78b') in 0.001929 seconds 
+  Import took 0.011562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.287498 seconds.
+  path: Assets/XR/Settings/OpenXR Package Settings.asset
+  artifactKey: Guid(b7b452f4dc8a1e44291d54ca1ffd482a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/OpenXR Package Settings.asset using Guid(b7b452f4dc8a1e44291d54ca1ffd482a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbea834cec3a7b7dee2828260bcccff8') in 0.007615 seconds 
+  Import took 0.018222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.755712 seconds.
+  path: Assets/Scripts/Gameplay/Quest/QuestManager.cs
+  artifactKey: Guid(eaa37037327a14b4093759003e7f07ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gameplay/Quest/QuestManager.cs using Guid(eaa37037327a14b4093759003e7f07ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339844f4ceb6621735ca5d50952cec8f') in 0.024156 seconds 
+  Import took 0.034002 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016747 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.19 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Uni\FinalYear\SupplyChain\SupplyChainFinalNotExe\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Uni\FinalYear\SupplyChain\SupplyChainFinalNotExe\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.055 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2056ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1792ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (499ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (871ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (646ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.07 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 5736 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 256.4 MB.
+System memory in use after: 256.8 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 6388.
+Total: 10.059600 ms (FindLiveObjects: 0.915200 ms CreateObjectMapping: 0.906700 ms MarkObjects: 8.108900 ms  DeleteObjects: 0.127600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 272.616638 seconds.
+  path: Assets/JMO Assets/WarFX/Desktop/Materials/Flames/WFX_M_FlameSmall 4F Add.mat
+  artifactKey: Guid(b2593af31c471b7469ea80cfa0d26b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/WarFX/Desktop/Materials/Flames/WFX_M_FlameSmall 4F Add.mat using Guid(b2593af31c471b7469ea80cfa0d26b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bc40e4965a1b3eb22d7a6842bc7cf2') in 0.144904 seconds 
+  Import took 0.154562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.283151 seconds.
+  path: Assets/JMO Assets/WarFX/Desktop/Materials/Misc/WFX_M_SmallDots Add.mat
+  artifactKey: Guid(e4f85b2e68822a041b8df56db88fbd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/WarFX/Desktop/Materials/Misc/WFX_M_SmallDots Add.mat using Guid(e4f85b2e68822a041b8df56db88fbd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d50b289fb7ce9c0326057a609d8e50') in 0.010507 seconds 
+  Import took 0.020078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 788.558061 seconds.
+  path: Assets/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeScroll Add.mat
+  artifactKey: Guid(08860f5a2ea791b418ad49e30b240d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeScroll Add.mat using Guid(08860f5a2ea791b418ad49e30b240d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca66ebf93bdc84f149ca6dc61d00a2c') in 0.012202 seconds 
+  Import took 0.022344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.795853 seconds.
+  path: Assets/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeGrenade AB.mat
+  artifactKey: Guid(34d513672558fe0478dd3a29e7f55db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeGrenade AB.mat using Guid(34d513672558fe0478dd3a29e7f55db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4bf498a2d468ae0de3781c6c6ff7f5') in 0.009923 seconds 
+  Import took 0.019225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.096242 seconds.
+  path: Assets/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_Smoke SoftMult.mat
+  artifactKey: Guid(eb2412df5134fe749b8468bef9340100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_Smoke SoftMult.mat using Guid(eb2412df5134fe749b8468bef9340100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9925e1a6efff9d1fbcda5c0f500ddd7b') in 0.009029 seconds 
+  Import took 0.017839 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005617 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Uni\FinalYear\SupplyChain\SupplyChainFinalNotExe\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Uni\FinalYear\SupplyChain\SupplyChainFinalNotExe\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.593 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1593ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1399ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (389ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (691ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (508ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 5736 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 256.9 MB.
+System memory in use after: 257.3 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 6461.
+Total: 8.746800 ms (FindLiveObjects: 0.767600 ms CreateObjectMapping: 0.594000 ms MarkObjects: 7.282400 ms  DeleteObjects: 0.101400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005672 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Uni\FinalYear\SupplyChain\SupplyChainFinalNotExe\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Uni\FinalYear\SupplyChain\SupplyChainFinalNotExe\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.827 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1828ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1603ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (466ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (801ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (609ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 5716 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 256.0 MB.
+System memory in use after: 256.4 MB.
+
+Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 6450.
+Total: 9.847400 ms (FindLiveObjects: 0.609700 ms CreateObjectMapping: 0.449900 ms MarkObjects: 8.654300 ms  DeleteObjects: 0.131700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1459.807520 seconds.
+  path: Assets/Scripts/Gameplay/Quest/QuestManager.cs
+  artifactKey: Guid(eaa37037327a14b4093759003e7f07ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gameplay/Quest/QuestManager.cs using Guid(eaa37037327a14b4093759003e7f07ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a196a9a2b86b3850492da0fe0a16a6f2') in 0.008149 seconds 
+  Import took 0.020012 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007438 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Uni\FinalYear\SupplyChain\SupplyChainFinalNotExe\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Uni\FinalYear\SupplyChain\SupplyChainFinalNotExe\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.531 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1531ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1353ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (376ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (671ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (500ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 5736 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 256.9 MB.
+System memory in use after: 257.4 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 6467.
+Total: 9.214200 ms (FindLiveObjects: 0.942900 ms CreateObjectMapping: 0.596000 ms MarkObjects: 7.534600 ms  DeleteObjects: 0.139200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 257.119074 seconds.
+  path: Assets/Prefabs/Models/Environment Items/(MM & TS) Environment/House/(Normal) Finish.png
+  artifactKey: Guid(cdf0c7360915d3c4a86124ca57338ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/(MM & TS) Environment/House/(Normal) Finish.png using Guid(cdf0c7360915d3c4a86124ca57338ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fafc972cfa624529fa89150fc031d7') in 0.076185 seconds 
+  Import took 0.088114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Prefabs/Models/Environment Items/(MM & TS) Environment/Shelves/(1)/(Shelf) Baked_Normal.png
+  artifactKey: Guid(456725221a8a4e04fb3567f1491f3b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/(MM & TS) Environment/Shelves/(1)/(Shelf) Baked_Normal.png using Guid(456725221a8a4e04fb3567f1491f3b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846e42ac3aa605568b2d913f09b243a1') in 0.020116 seconds 
+  Import took 0.030815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Prefabs/Models/Environment Items/StoneRamp_Bannisters/MiddleBannisterTextures/Banister_Middle_grey_metallic_mat_Normal.png
+  artifactKey: Guid(4520bf0d03b4fe1428370e41ebcf3377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/StoneRamp_Bannisters/MiddleBannisterTextures/Banister_Middle_grey_metallic_mat_Normal.png using Guid(4520bf0d03b4fe1428370e41ebcf3377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233a2560a021da7d6975ff58b00becfc') in 0.011283 seconds 
+  Import took 0.021240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000687 seconds.
+  path: Assets/CONTROLROOM/CableWall/CableWall_cable_brown_mat.001_Normal.png
+  artifactKey: Guid(f5cd382e5f94f444386389488b54f2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CONTROLROOM/CableWall/CableWall_cable_brown_mat.001_Normal.png using Guid(f5cd382e5f94f444386389488b54f2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fef1e2309ac370857016e100676dcbe') in 0.021252 seconds 
+  Import took 0.030582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Prefabs/Models/Environment Items/Barrel/Materials/Textures/Barrel_Lid_BarrelLid_Normal.png
+  artifactKey: Guid(3eb0ae5761790a2498be9f429ed07712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/Barrel/Materials/Textures/Barrel_Lid_BarrelLid_Normal.png using Guid(3eb0ae5761790a2498be9f429ed07712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d1330b57cc75eabbe8f50bbd0a470f') in 0.009500 seconds 
+  Import took 0.020355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/CONTROLROOM/monitorbox4/4screenMonitorBox_DefaultMaterial_Normal.png
+  artifactKey: Guid(9486a457737db964fa4934e904eaf43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CONTROLROOM/monitorbox4/4screenMonitorBox_DefaultMaterial_Normal.png using Guid(9486a457737db964fa4934e904eaf43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea55dd989ca3678da6176a7dcd2d2aa0') in 0.011310 seconds 
+  Import took 0.022527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Cablebox/batterybox/batterybox_WireBox_Mid_Mat_Normal.png
+  artifactKey: Guid(08638ca5211ea8d41bab81aa8276e2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cablebox/batterybox/batterybox_WireBox_Mid_Mat_Normal.png using Guid(08638ca5211ea8d41bab81aa8276e2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373f6c0d8d02801eeeeda0c09dba4d3c') in 0.012466 seconds 
+  Import took 0.023253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Prefabs/Models/CraftingMaterials/Materials/IronTextures/craftingassets_drops_iron_mat_Normal.png
+  artifactKey: Guid(f0c30101bfee3f94e90ef0d8961311f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/CraftingMaterials/Materials/IronTextures/craftingassets_drops_iron_mat_Normal.png using Guid(f0c30101bfee3f94e90ef0d8961311f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9781e856a2b87f333b86c6cbc6e614') in 0.009826 seconds 
+  Import took 0.020648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorframe_Textures/Door_FrameFIXED_emissive_orange_mat_Normal.png
+  artifactKey: Guid(b8a68a50a1b5c0e4895d1ff6dae2c11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorframe_Textures/Door_FrameFIXED_emissive_orange_mat_Normal.png using Guid(b8a68a50a1b5c0e4895d1ff6dae2c11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9b7bf096791267658ff771f6884f79') in 0.009852 seconds 
+  Import took 0.020247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Cablebox/cableboxupdate/buttonbox/buttonbox_WireBox_Mid_Mat_Normal.png
+  artifactKey: Guid(3826a5825b0762243b41302c15a56f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cablebox/cableboxupdate/buttonbox/buttonbox_WireBox_Mid_Mat_Normal.png using Guid(3826a5825b0762243b41302c15a56f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf2bf2d10af1b997202b599585be1ea') in 0.010692 seconds 
+  Import took 0.021181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorframe_Textures/Door_FrameFIXED_emissive_green_mat_Normal.png
+  artifactKey: Guid(8cd486cb68ec5cf4bb7ce5327f15458d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorframe_Textures/Door_FrameFIXED_emissive_green_mat_Normal.png using Guid(8cd486cb68ec5cf4bb7ce5327f15458d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b318485bba213147c1fe7acd536cf37') in 0.010029 seconds 
+  Import took 0.020756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Cablebox/cableboxupdate/buttonbox/buttonbox_greebutton_mat_Normal.png
+  artifactKey: Guid(8e367a8fff169594f8928cf6e91070b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cablebox/cableboxupdate/buttonbox/buttonbox_greebutton_mat_Normal.png using Guid(8e367a8fff169594f8928cf6e91070b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870876c901deb9f0bf492972fde3c496') in 0.010571 seconds 
+  Import took 0.022263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Prefabs/Models/Health/Bottle Energy/bottle _lidring_Normal.png
+  artifactKey: Guid(a7aa7cb5037f79d449c87fd281a9fc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Health/Bottle Energy/bottle _lidring_Normal.png using Guid(a7aa7cb5037f79d449c87fd281a9fc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d8e34b44afb8cdd9d7c2cd499772c0') in 0.011371 seconds 
+  Import took 0.021916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorframe_Textures/Door_FrameFIXED_grey_metallic_mat_Normal.png
+  artifactKey: Guid(f6296e89e449a5845a9167ad688fb37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorframe_Textures/Door_FrameFIXED_grey_metallic_mat_Normal.png using Guid(f6296e89e449a5845a9167ad688fb37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917ebd3291f6ff1bed5d0963a35841d3') in 0.009974 seconds 
+  Import took 0.019341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/CONTROLROOM/monitorbox1/1screenMonitorBox_DefaultMaterial_Normal.png
+  artifactKey: Guid(ae813471a5001a04aa6bf4a9e53ca877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CONTROLROOM/monitorbox1/1screenMonitorBox_DefaultMaterial_Normal.png using Guid(ae813471a5001a04aa6bf4a9e53ca877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07a0a54ac2f5a4e60a508797702e401') in 0.011212 seconds 
+  Import took 0.021234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Prefabs/Models/Environment Items/(MM & TS) Environment/House/Furnace/(Normal) Furnace.png
+  artifactKey: Guid(3d5304db3ea0d0d4394cb38429250b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/(MM & TS) Environment/House/Furnace/(Normal) Furnace.png using Guid(3d5304db3ea0d0d4394cb38429250b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0509b67ce78581847ab874d63e27fa9a') in 0.009050 seconds 
+  Import took 0.018952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Prefabs/Models/Environment Items/LightModels/CeilingLight/CeilingLightTextures/Ceiling_Lamp_darkgrey_mat_Normal.png
+  artifactKey: Guid(ab6d4382301ae2f45a0451fd319739b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/LightModels/CeilingLight/CeilingLightTextures/Ceiling_Lamp_darkgrey_mat_Normal.png using Guid(ab6d4382301ae2f45a0451fd319739b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9f0577df56b3b4a2ac37991d8911de') in 0.010118 seconds 
+  Import took 0.020909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Prefabs/Models/Environment Items/LightModels/WallLight/WallLightTextures/Corridor_Lamp_darkgrey_mat_Normal.png
+  artifactKey: Guid(0a61d1855b3bcf44283041e063478834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/LightModels/WallLight/WallLightTextures/Corridor_Lamp_darkgrey_mat_Normal.png using Guid(0a61d1855b3bcf44283041e063478834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6cd083c952cd8bf0d5daa1854e44ad') in 0.009943 seconds 
+  Import took 0.020960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/CONTROLROOM/CableWall/CableWall_shinny_metal_Normal.png
+  artifactKey: Guid(674c1bdf2fe56674c8cf2da031e5ac65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CONTROLROOM/CableWall/CableWall_shinny_metal_Normal.png using Guid(674c1bdf2fe56674c8cf2da031e5ac65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647c864edc3732f1588c2904e7839531') in 0.010821 seconds 
+  Import took 0.021072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Prefabs/Models/Environment Items/Garage_props/Assets/Textures/barrels_purple_Normal.tga
+  artifactKey: Guid(b5c080317cdd60249837d531d1590cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/Garage_props/Assets/Textures/barrels_purple_Normal.tga using Guid(b5c080317cdd60249837d531d1590cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f6f224465b20f30eff9a6bb5c9d00f') in 0.018533 seconds 
+  Import took 0.029296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Cablebox/batterybox/battery/battery_plasticBlue_Normal.png
+  artifactKey: Guid(79c5eb57140887941b39c9c682a23bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cablebox/batterybox/battery/battery_plasticBlue_Normal.png using Guid(79c5eb57140887941b39c9c682a23bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9930fe639451e863e9f695f97976d7') in 0.011007 seconds 
+  Import took 0.022098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Prefabs/Models/CraftingMaterials/Materials/CarbonTextures/craftingassets_drops_carbon_mat_Normal.png
+  artifactKey: Guid(92ce8f89b07a61747a5cc7e23fc4b690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/CraftingMaterials/Materials/CarbonTextures/craftingassets_drops_carbon_mat_Normal.png using Guid(92ce8f89b07a61747a5cc7e23fc4b690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d15bb6b868cd6fbfcfde73dec96d7b') in 0.010178 seconds 
+  Import took 0.021514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Prefabs/Models/CraftingMaterials/Materials/TungstenTextures/craftingassets_drops_tungsten_mat_Normal.png
+  artifactKey: Guid(e5170718ffa08db45926d8cb0c9c897f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/CraftingMaterials/Materials/TungstenTextures/craftingassets_drops_tungsten_mat_Normal.png using Guid(e5170718ffa08db45926d8cb0c9c897f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd332f53e9802dcb63041491019e99e47') in 0.008995 seconds 
+  Import took 0.019345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Prefabs/Models/Environment Items/CraftingTable/Materials/Textures/CraftingStation_CraftingTableMAT_Normal.png
+  artifactKey: Guid(396ae88b776e5474b9cbd90ec2ac6d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/CraftingTable/Materials/Textures/CraftingStation_CraftingTableMAT_Normal.png using Guid(396ae88b776e5474b9cbd90ec2ac6d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6830b776ccf7dcec2aa869f37835b14e') in 0.009985 seconds 
+  Import took 0.020677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Cablebox/batterybox/battery/battery_metal_mat_Normal.png
+  artifactKey: Guid(26b0e9df1c69d01469ffae8daf25ccd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cablebox/batterybox/battery/battery_metal_mat_Normal.png using Guid(26b0e9df1c69d01469ffae8daf25ccd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3051c969dfc84d4a35f8b52c56fce754') in 0.010731 seconds 
+  Import took 0.022368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/CONTROLROOM/CableWall/CableWall_cable_red_mat_Normal.png
+  artifactKey: Guid(5b4171df243472544a5c71107f84b9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CONTROLROOM/CableWall/CableWall_cable_red_mat_Normal.png using Guid(5b4171df243472544a5c71107f84b9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e0f3cc353ce601301a18375dc5c20f') in 0.011647 seconds 
+  Import took 0.022388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Prefabs/Models/CraftingMaterials/Materials/SteelTextures/craftingassets_drops_steel_mat_Normal.png
+  artifactKey: Guid(be518259e6b3acc48a458e6086139db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/CraftingMaterials/Materials/SteelTextures/craftingassets_drops_steel_mat_Normal.png using Guid(be518259e6b3acc48a458e6086139db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006376506fb9087e8b36d658fa8aca96') in 0.011392 seconds 
+  Import took 0.023268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Prefabs/Models/Environment Items/IndustrialChimney/IndustrialChimneyTextures/Box_by_stairs_dark_metallic_mat_Normal.png
+  artifactKey: Guid(3a8c3ca039f57fb41b066ff8a7b6e091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/IndustrialChimney/IndustrialChimneyTextures/Box_by_stairs_dark_metallic_mat_Normal.png using Guid(3a8c3ca039f57fb41b066ff8a7b6e091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05eee012e3f506ca57a05b7d9403826f') in 0.011551 seconds 
+  Import took 0.021191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Prefabs/Models/Environment Items/LightModels/WallLight/WallLightTextures/Corridor_Lamp_emissiv_Warmwhite_mat_Normal.png
+  artifactKey: Guid(030fd3f61cd734c49ab57c7d033f90ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/LightModels/WallLight/WallLightTextures/Corridor_Lamp_emissiv_Warmwhite_mat_Normal.png using Guid(030fd3f61cd734c49ab57c7d033f90ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca51e35c263469589a9e7b4452b6be2') in 0.011493 seconds 
+  Import took 0.021197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorR_Textures/Door_R_darkgrey_mat_Normal.png
+  artifactKey: Guid(3ca62105974590f4b87df5337fe148f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorR_Textures/Door_R_darkgrey_mat_Normal.png using Guid(3ca62105974590f4b87df5337fe148f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1f11b4642b0fa9e37fa395ba761b98') in 0.011194 seconds 
+  Import took 0.021594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Cablebox/batterybox/battery_plasticBlue_Normal.png
+  artifactKey: Guid(5e872d89e6a79904b9c18babe40bc5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cablebox/batterybox/battery_plasticBlue_Normal.png using Guid(5e872d89e6a79904b9c18babe40bc5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b50478a603dc8115d18750ef0d9ef16') in 0.011962 seconds 
+  Import took 0.023496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Prefabs/Models/Environment Items/Access Control/Materials/2045-normal.jpg
+  artifactKey: Guid(220003613fc014645abd59bd2610c7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/Access Control/Materials/2045-normal.jpg using Guid(220003613fc014645abd59bd2610c7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4779152b4e404f0140a31810efb57e') in 0.013676 seconds 
+  Import took 0.023287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Prefabs/Models/Environment Items/Garage_props/Assets/Textures/barrels_old_Normal.tga
+  artifactKey: Guid(747e6a2e2ed45de4489504ce3f270fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/Garage_props/Assets/Textures/barrels_old_Normal.tga using Guid(747e6a2e2ed45de4489504ce3f270fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6367cc924424cf686a67ab5cec60077a') in 0.017078 seconds 
+  Import took 0.026916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/CONTROLROOM/CableWall/CableWall_cable_green_mat_Normal.png
+  artifactKey: Guid(0034b76d8f4d2f24a8b8fe19a2ff0334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CONTROLROOM/CableWall/CableWall_cable_green_mat_Normal.png using Guid(0034b76d8f4d2f24a8b8fe19a2ff0334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6fc6e37579f2faf0a0eadd352f943a') in 0.011697 seconds 
+  Import took 0.022906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Prefabs/Models/CraftingMaterials/Materials/WoodTextures/craftingassets_drops_wood_mat_Normal.png
+  artifactKey: Guid(1a382c2cebf74064aae77ea469b7e727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/CraftingMaterials/Materials/WoodTextures/craftingassets_drops_wood_mat_Normal.png using Guid(1a382c2cebf74064aae77ea469b7e727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5c6071acd32c91939f1bfa992178b3') in 0.011893 seconds 
+  Import took 0.024140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Cablebox/batterybox/batterybox_metal_mat_Normal.png
+  artifactKey: Guid(ddf3f860878cfe6459951766cda95a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cablebox/batterybox/batterybox_metal_mat_Normal.png using Guid(ddf3f860878cfe6459951766cda95a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a93ed84ac466b7635869efb1a1c7a6') in 0.011047 seconds 
+  Import took 0.023022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Prefabs/Models/Environment Items/LightModels/CeilingLight/CeilingLightTextures/Ceiling_Lamp_emissive_blue_matt_Normal.png
+  artifactKey: Guid(3661432a24faf4b45a69f4542c384e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/LightModels/CeilingLight/CeilingLightTextures/Ceiling_Lamp_emissive_blue_matt_Normal.png using Guid(3661432a24faf4b45a69f4542c384e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0355b77606bf738857807c0632b2ed') in 0.009984 seconds 
+  Import took 0.021593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/CONTROLROOM/CableWall/CableWall_cable_blue_mat_Normal.png
+  artifactKey: Guid(d12e405a85140ab42be8b3a02b4a1f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CONTROLROOM/CableWall/CableWall_cable_blue_mat_Normal.png using Guid(d12e405a85140ab42be8b3a02b4a1f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa011d7b34242d2bf41e07a4d21e463') in 0.012077 seconds 
+  Import took 0.021769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorR_Textures/Door_R_emissive_orange_mat_Normal.png
+  artifactKey: Guid(d672e6e2711d1c24da84ea72e7a8b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorR_Textures/Door_R_emissive_orange_mat_Normal.png using Guid(d672e6e2711d1c24da84ea72e7a8b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741d37ce1248e56a0e249a46af69cb01') in 0.012136 seconds 
+  Import took 0.023929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Prefabs/Models/Environment Items/ConveyerBelt/ConveyerBeltTextures/belt1_innerbelt_mat1_Normal.png
+  artifactKey: Guid(30264bdf02275a543be8da46012cb45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/ConveyerBelt/ConveyerBeltTextures/belt1_innerbelt_mat1_Normal.png using Guid(30264bdf02275a543be8da46012cb45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f011a2497db2eadcf8b1d47629996587') in 0.010418 seconds 
+  Import took 0.020514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Prefabs/Models/CraftingMaterials/Materials/RubberTextures/craftingassets_drops_rubber_mat_Normal.png
+  artifactKey: Guid(3ffc20059aeef7b45afbb20ba934d9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/CraftingMaterials/Materials/RubberTextures/craftingassets_drops_rubber_mat_Normal.png using Guid(3ffc20059aeef7b45afbb20ba934d9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce79063bf0eedf43066fd1ff8911cc5') in 0.011075 seconds 
+  Import took 0.022625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/CGY_ATM/Textures/ATM_Normal.png
+  artifactKey: Guid(b71052bfeaf5b954eb3c71391407827a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CGY_ATM/Textures/ATM_Normal.png using Guid(b71052bfeaf5b954eb3c71391407827a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c894238c8b40ac43ecfca876f8c9ba40') in 0.080281 seconds 
+  Import took 0.095661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Prefabs/Models/Environment Items/StoneRamp_Bannisters/SideBannisterTextures/Banister_side_grey_metallic_mat_Normal.png
+  artifactKey: Guid(e0053ff9bb9ee934e8c77af136faeff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/StoneRamp_Bannisters/SideBannisterTextures/Banister_side_grey_metallic_mat_Normal.png using Guid(e0053ff9bb9ee934e8c77af136faeff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86a2d22ff76fcad59fa95dd9cd5f732') in 0.009045 seconds 
+  Import took 0.018842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Cablebox/batterybox/batterybox_redbotton_Normal.png
+  artifactKey: Guid(aea6e5bbff728e547af4e1ee673655f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cablebox/batterybox/batterybox_redbotton_Normal.png using Guid(aea6e5bbff728e547af4e1ee673655f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0494cec9379b8680062c7845c69b77e0') in 0.012124 seconds 
+  Import took 0.022534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Prefabs/Models/Environment Items/ConveyerBelt/ConveyerBeltTextures/belt1_outerbelt_metal_rust_mat1_Normal.png
+  artifactKey: Guid(ce9bc5d609d7a6c4681e2f8e82625693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/ConveyerBelt/ConveyerBeltTextures/belt1_outerbelt_metal_rust_mat1_Normal.png using Guid(ce9bc5d609d7a6c4681e2f8e82625693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0c32b6aa1770908576081f637dc75e') in 0.010305 seconds 
+  Import took 0.021188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Prefabs/Models/Health/Bottle Energy/bottle _lid_Normal.png
+  artifactKey: Guid(30cf2e9c3dd1cbf49b2b515b76a12f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Health/Bottle Energy/bottle _lid_Normal.png using Guid(30cf2e9c3dd1cbf49b2b515b76a12f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6ebceb702808e4f6f0426deafaa379') in 0.011810 seconds 
+  Import took 0.022796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Cablebox/cableboxupdate/buttonbox/buttonbox_blackbuttom_Normal.png
+  artifactKey: Guid(e76ceff55c2a9d840bb1c136101938ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cablebox/cableboxupdate/buttonbox/buttonbox_blackbuttom_Normal.png using Guid(e76ceff55c2a9d840bb1c136101938ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f6355a1e3091e3ed65e67ad1332edd') in 0.013406 seconds 
+  Import took 0.024082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorL_Textures/Door_L_darkgrey_mat_Normal.png
+  artifactKey: Guid(d9db938b73464604a8af217d25d78db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorL_Textures/Door_L_darkgrey_mat_Normal.png using Guid(d9db938b73464604a8af217d25d78db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721f3bb833b442987f82ef20b814b66d') in 0.012076 seconds 
+  Import took 0.024426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorframe_Textures/Door_FrameFIXED_darkgrey_mat_Normal.png
+  artifactKey: Guid(da7f9390db2512847a4f25bf14d9355d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorframe_Textures/Door_FrameFIXED_darkgrey_mat_Normal.png using Guid(da7f9390db2512847a4f25bf14d9355d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f812e55e0bfef6af44a38f673d6c8ee0') in 0.010495 seconds 
+  Import took 0.021359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Cablebox/cableboxupdate/buttonbox/buttonbox_metal_mat_Normal.png
+  artifactKey: Guid(936b23efef3e99848ac669131c9ec15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cablebox/cableboxupdate/buttonbox/buttonbox_metal_mat_Normal.png using Guid(936b23efef3e99848ac669131c9ec15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdecc27eaa7a05cf44ae5584dfcec7af') in 0.011872 seconds 
+  Import took 0.025186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/CONTROLROOM/CableWall/CableWall_cable_yellow_mat_Normal.png
+  artifactKey: Guid(69ffdedfc430cc6418e1787ee2422be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CONTROLROOM/CableWall/CableWall_cable_yellow_mat_Normal.png using Guid(69ffdedfc430cc6418e1787ee2422be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f270bf57a1cccb62b6ce9c3ca43b8c83') in 0.013453 seconds 
+  Import took 0.030028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Prefabs/Models/Environment Items/IndustrialChimney/IndustrialChimneyTextures/Box_by_stairs_grey_metallic_mat_Normal.png
+  artifactKey: Guid(c5d4116322cb2cf4a9389f3671ea8afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/IndustrialChimney/IndustrialChimneyTextures/Box_by_stairs_grey_metallic_mat_Normal.png using Guid(c5d4116322cb2cf4a9389f3671ea8afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b5d6cdac4d2f6270020c39b6bb0f08') in 0.009346 seconds 
+  Import took 0.022073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Prefabs/Models/Environment Items/Barrel/Materials/Textures/Barrel_BarrelMain_Normal.png
+  artifactKey: Guid(3f01ede6e15ab20429495ccdb24ad73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/Barrel/Materials/Textures/Barrel_BarrelMain_Normal.png using Guid(3f01ede6e15ab20429495ccdb24ad73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac1a52c7014bed03836ef7f3adf6387') in 0.011777 seconds 
+  Import took 0.022123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Prefabs/Models/Health/Bottle Energy/bottle _bottlee_Normal.png
+  artifactKey: Guid(cb4e4b41016370548ab74f9a4c4f65fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Health/Bottle Energy/bottle _bottlee_Normal.png using Guid(cb4e4b41016370548ab74f9a4c4f65fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4981b14c9c49cd2a55108ebef13de1c3') in 0.013356 seconds 
+  Import took 0.023842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Cablebox/wireboxmid 1/Cablebox_Normal.PNG
+  artifactKey: Guid(49ab6cc09acaac74d8365b0178203804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cablebox/wireboxmid 1/Cablebox_Normal.PNG using Guid(49ab6cc09acaac74d8365b0178203804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd981209efcdd9d26e5f3612c84770593') in 0.016360 seconds 
+  Import took 0.025898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/CONTROLROOM/CableWall/CableWall_metallic_mat_Normal.png
+  artifactKey: Guid(056e15a568171b6408c2190063fd811c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CONTROLROOM/CableWall/CableWall_metallic_mat_Normal.png using Guid(056e15a568171b6408c2190063fd811c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a518d21a9ee65fc2a26c93bc43f60be2') in 0.011485 seconds 
+  Import took 0.023367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/FloorTileSidesURP/Floor1_inner_Floor1_back_Normal.png
+  artifactKey: Guid(ed90053c20583bd45b84d6e86b1cf09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/FloorTileSidesURP/Floor1_inner_Floor1_back_Normal.png using Guid(ed90053c20583bd45b84d6e86b1cf09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497f664527add3add0b74b495f1b5a1b') in 0.010582 seconds 
+  Import took 0.021652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Prefabs/Models/Enemies/FlyingEnemy/FlyingEnemyImportedAssets/Textures/URP_FlyingEnemy/flyingBot8_arms_flyingbot_mat_2_Normal.png
+  artifactKey: Guid(d5e9021e3befce345ac18f8d9dad0752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Enemies/FlyingEnemy/FlyingEnemyImportedAssets/Textures/URP_FlyingEnemy/flyingBot8_arms_flyingbot_mat_2_Normal.png using Guid(d5e9021e3befce345ac18f8d9dad0752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ba7270c20594ff68837e8f8e8cba70') in 0.010126 seconds 
+  Import took 0.020325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/BottomRight/Floor1_inner_Floor1__Normal.jpg
+  artifactKey: Guid(e1055926175544640b5db61665714a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/BottomRight/Floor1_inner_Floor1__Normal.jpg using Guid(e1055926175544640b5db61665714a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3c7286fe00c0e15ab130df27f91a92') in 0.010961 seconds 
+  Import took 0.021852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/FloorTilesCornerPBR/Floor1_inner_Floor1_back_Normal.png
+  artifactKey: Guid(2a79825fe9e6f32429912b6c0acebd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/FloorTilesCornerPBR/Floor1_inner_Floor1_back_Normal.png using Guid(2a79825fe9e6f32429912b6c0acebd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3b5cd2a1a57b43818cc4850e272124') in 0.009933 seconds 
+  Import took 0.020990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Prefabs/Models/Enemies/FlyingEnemy/FlyingEnemyImportedAssets/Textures/URP_FlyingEnemy/flyingBot8_claw_flyingbot_mat_Normal.png
+  artifactKey: Guid(9dc4045a183589344b430fa547402848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Enemies/FlyingEnemy/FlyingEnemyImportedAssets/Textures/URP_FlyingEnemy/flyingBot8_claw_flyingbot_mat_Normal.png using Guid(9dc4045a183589344b430fa547402848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df1e6076afbc8bbb70dcd518d3c737d') in 0.010982 seconds 
+  Import took 0.024888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Prefabs/Models/Enemies/FlyingEnemy/FlyingEnemyImportedAssets/Textures/URP_FlyingEnemy/flyingBot8_eyes_flyingbot_mat_Normal.png
+  artifactKey: Guid(0f0ac0e9bc348364eb4235a6242d138e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Enemies/FlyingEnemy/FlyingEnemyImportedAssets/Textures/URP_FlyingEnemy/flyingBot8_eyes_flyingbot_mat_Normal.png using Guid(0f0ac0e9bc348364eb4235a6242d138e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfb57621815a0d71e9b2c046b49d53a') in 0.010653 seconds 
+  Import took 0.022793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/UpFloorTileURP/Floor1_inner_Floor1__Normal.png
+  artifactKey: Guid(e58e51fceebc4e6439fe6e1be82e3309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/UpFloorTileURP/Floor1_inner_Floor1__Normal.png using Guid(e58e51fceebc4e6439fe6e1be82e3309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59496a565ecb055886606e33c20012d') in 0.009659 seconds 
+  Import took 0.021292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/TopLeftCorner/Floor1_inner_Floor1__Normal.jpg
+  artifactKey: Guid(e30caf1703570cd48ba8cc43c590fb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/TopLeftCorner/Floor1_inner_Floor1__Normal.jpg using Guid(e30caf1703570cd48ba8cc43c590fb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e914c133052ed5734116c6d12c41ce') in 0.010195 seconds 
+  Import took 0.020222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Prefabs/Models/Enemies/FlyingEnemy/FlyingEnemyImportedAssets/Textures/URP_FlyingEnemy/flyingBot8_body_flyingbot_mat_Normal.png
+  artifactKey: Guid(819d1e6d4fa18f14da9b090ce982f590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Enemies/FlyingEnemy/FlyingEnemyImportedAssets/Textures/URP_FlyingEnemy/flyingBot8_body_flyingbot_mat_Normal.png using Guid(819d1e6d4fa18f14da9b090ce982f590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4660f3b4a0930e8053df72ae4c8177') in 0.010217 seconds 
+  Import took 0.021725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/UpFloorTileURP/Floor1_inner_Floor1_net_Normal.png
+  artifactKey: Guid(4ba4d669fdc536746b52aced0f9cfe21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/UpFloorTileURP/Floor1_inner_Floor1_net_Normal.png using Guid(4ba4d669fdc536746b52aced0f9cfe21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e4822c05910d2c5b6a2f0b223e1d26') in 0.011724 seconds 
+  Import took 0.021816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Prefabs/Models/Enemies/FlyingEnemy/FlyingEnemyImportedAssets/Textures/URP_FlyingEnemy/flyingBot8_eyebrows_flyingbot_mat_Normal.png
+  artifactKey: Guid(bce2e74b1a46fe542be195714814c3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Enemies/FlyingEnemy/FlyingEnemyImportedAssets/Textures/URP_FlyingEnemy/flyingBot8_eyebrows_flyingbot_mat_Normal.png using Guid(bce2e74b1a46fe542be195714814c3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31558dfd0eda30f13966417e64601ca8') in 0.012931 seconds 
+  Import took 0.023717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Prefabs/Models/(200 - 299) Weapons/(203) Illustrious Hammer/Hammer1/Materials/Textures/Hammer_WoodHandle_Normal.png
+  artifactKey: Guid(3b7de2ab56a3c3f48b16afc376869dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/(200 - 299) Weapons/(203) Illustrious Hammer/Hammer1/Materials/Textures/Hammer_WoodHandle_Normal.png using Guid(3b7de2ab56a3c3f48b16afc376869dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557c468a2354b676ed635bd32d07feda') in 0.010640 seconds 
+  Import took 0.020590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesMiddleMaterials/FloorTilesMiddleURP/Floor1_inner_Floor1_net_Normal.png
+  artifactKey: Guid(cb9c9d19f591f5c4a8cf3fa732669bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesMiddleMaterials/FloorTilesMiddleURP/Floor1_inner_Floor1_net_Normal.png using Guid(cb9c9d19f591f5c4a8cf3fa732669bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d56c9466f1d53986c2a8549776fa6c5') in 0.010031 seconds 
+  Import took 0.020677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/BottomRight/Floor1_inner_Floor1_net_Normal.jpg
+  artifactKey: Guid(8c5470c507f24e14bb5d05bb29bc65d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/BottomRight/Floor1_inner_Floor1_net_Normal.jpg using Guid(8c5470c507f24e14bb5d05bb29bc65d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21021dca1f95459b07e494512a227fa9') in 0.011344 seconds 
+  Import took 0.021589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/FloorTilesCornerPBR/Floor1_inner_Floor1_net_Normal.png
+  artifactKey: Guid(7b82b7444b4a74843bdb73543d11efa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/FloorTilesCornerPBR/Floor1_inner_Floor1_net_Normal.png using Guid(7b82b7444b4a74843bdb73543d11efa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0cb78f32d8abf30bb6d5fdf91b961b') in 0.011040 seconds 
+  Import took 0.021216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/CONTROLROOM/handle/handle_shinny_metal_Normal.png
+  artifactKey: Guid(62b99de8b055b7e4c8ad11a0ef1e0c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CONTROLROOM/handle/handle_shinny_metal_Normal.png using Guid(62b99de8b055b7e4c8ad11a0ef1e0c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea65146cf7f2f4caa5e54521341b760c') in 0.013581 seconds 
+  Import took 0.023991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/FloorTileSidesURP/Floor1_inner_Floor1__Normal.png
+  artifactKey: Guid(93c2b120536c51944ba935b025c24c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/FloorTileSidesURP/Floor1_inner_Floor1__Normal.png using Guid(93c2b120536c51944ba935b025c24c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb832acf883c48eea54680d151d7feab') in 0.010084 seconds 
+  Import took 0.019723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/DownFloorTiles/Floor1_inner_Floor1_net_Normal.png
+  artifactKey: Guid(4d3edf7f028b2fa45bcd749ef99af113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/DownFloorTiles/Floor1_inner_Floor1_net_Normal.png using Guid(4d3edf7f028b2fa45bcd749ef99af113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2081a2fa723c811314ee739dd35bbd9') in 0.009365 seconds 
+  Import took 0.020074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesMiddleMaterials/FloorTilesMiddleURP/Floor1_inner_Floor1__Normal.png
+  artifactKey: Guid(4f9dd733824ca6c4ab01e2e1c43f2183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesMiddleMaterials/FloorTilesMiddleURP/Floor1_inner_Floor1__Normal.png using Guid(4f9dd733824ca6c4ab01e2e1c43f2183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92cbfaa7fcd00af1324178b9a8125fb') in 0.010269 seconds 
+  Import took 0.021491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Prefabs/Models/(200 - 299) Weapons/(203) Illustrious Hammer/Hammer1/Materials/Textures/Hammer_RubberBit_Normal.png
+  artifactKey: Guid(20ac0847192aefd4a8ef33f42069d1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/(200 - 299) Weapons/(203) Illustrious Hammer/Hammer1/Materials/Textures/Hammer_RubberBit_Normal.png using Guid(20ac0847192aefd4a8ef33f42069d1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc5c10f582ad8d50bd34d1eb814efec') in 0.010169 seconds 
+  Import took 0.021299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/TopRightCorner/Floor1_inner_Floor1_back_Normal.jpg
+  artifactKey: Guid(a4ce50848dc3e924ab3f3fe3dc932659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/TopRightCorner/Floor1_inner_Floor1_back_Normal.jpg using Guid(a4ce50848dc3e924ab3f3fe3dc932659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c07243b8a1a029dc1db65fa1bdeced2') in 0.010063 seconds 
+  Import took 0.022038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/FloorTilesCornerURP/Floor1_inner_Floor1_back_Normal.png
+  artifactKey: Guid(c33ed05bcadc92245b2da7799de74244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/FloorTilesCornerURP/Floor1_inner_Floor1_back_Normal.png using Guid(c33ed05bcadc92245b2da7799de74244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce687c449d31e9889898dc6c17531a3') in 0.009795 seconds 
+  Import took 0.019893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/RightFloorTile/Floor1_inner_Floor1__Normal.png
+  artifactKey: Guid(c10a03e99e39ece4cb97ee76d3b4eadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/RightFloorTile/Floor1_inner_Floor1__Normal.png using Guid(c10a03e99e39ece4cb97ee76d3b4eadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4c8e69d3da9a124d004d862c61655d') in 0.010469 seconds 
+  Import took 0.021363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/FloorTilesCornerURP/Floor1_inner_Floor1_net_Normal.png
+  artifactKey: Guid(0409199246ec7bd47aef427fdcd9a8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/FloorTilesCornerURP/Floor1_inner_Floor1_net_Normal.png using Guid(0409199246ec7bd47aef427fdcd9a8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e8f6fcf5bff576abeda75d16400928') in 0.010473 seconds 
+  Import took 0.020464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Prefabs/Models/(200 - 299) Weapons/(205) Ordinary Hammer/materials/Textures/hammer2_HammerMetal_mat_Normal.png
+  artifactKey: Guid(447657302151de74384a059714facf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/(200 - 299) Weapons/(205) Ordinary Hammer/materials/Textures/hammer2_HammerMetal_mat_Normal.png using Guid(447657302151de74384a059714facf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26b8d1779b6bf781bc626d65a35e7a3') in 0.010916 seconds 
+  Import took 0.021399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/TopRightCorner/Floor1_inner_Floor1_net_Normal.jpg
+  artifactKey: Guid(7721402d5c59b47419f110fe88670989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/TopRightCorner/Floor1_inner_Floor1_net_Normal.jpg using Guid(7721402d5c59b47419f110fe88670989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3572ffa52ba364e9a739afffbfe8244') in 0.009739 seconds 
+  Import took 0.022565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Prefabs/Models/Enemies/FlyingEnemy/FlyingEnemyImportedAssets/Textures/URP_FlyingEnemy/flyingBot8_RED_helmet_flyingbot_mat_Normal.png
+  artifactKey: Guid(7878be6a21c813c4cb1a76f597a11226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Enemies/FlyingEnemy/FlyingEnemyImportedAssets/Textures/URP_FlyingEnemy/flyingBot8_RED_helmet_flyingbot_mat_Normal.png using Guid(7878be6a21c813c4cb1a76f597a11226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceecf6f899e7ab48411d0c5577280c2e') in 0.009964 seconds 
+  Import took 0.020861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/RightFloorTile/Floor1_inner_Floor1_net_Normal.png
+  artifactKey: Guid(cf8643ff9b53b1947825faee2b267e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/RightFloorTile/Floor1_inner_Floor1_net_Normal.png using Guid(cf8643ff9b53b1947825faee2b267e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3693da2b088f13a39f8728e3148e6408') in 0.009606 seconds 
+  Import took 0.021727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Prefabs/Models/Environment Items/Garage_props/Assets/Textures/Furniture_garage_Normal.tga
+  artifactKey: Guid(66755b61a0b1e1c4ba63904961e55732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/Garage_props/Assets/Textures/Furniture_garage_Normal.tga using Guid(66755b61a0b1e1c4ba63904961e55732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0742070ae3e574cf8b131e24cd0a2a98') in 0.026382 seconds 
+  Import took 0.040039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Prefabs/Models/(200 - 299) Weapons/(205) Ordinary Hammer/materials/Textures/hammer2_HammerHandle_mat_Normal.png
+  artifactKey: Guid(698a6f781b32de94b9be9968e8bea716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/(200 - 299) Weapons/(205) Ordinary Hammer/materials/Textures/hammer2_HammerHandle_mat_Normal.png using Guid(698a6f781b32de94b9be9968e8bea716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c471782d852012c9f5b4c5cbe86fc77') in 0.009187 seconds 
+  Import took 0.019496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorR_Textures/Door_R_grey_metallic_mat_Normal.png
+  artifactKey: Guid(cb302deea92319945a9332f4e43077d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorR_Textures/Door_R_grey_metallic_mat_Normal.png using Guid(cb302deea92319945a9332f4e43077d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f89887efef0bc6e8f022fa557179f34') in 0.011139 seconds 
+  Import took 0.020719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/FloorTileSidesURP/Floor1_inner_Floor1_net_Normal.png
+  artifactKey: Guid(b80edd13d9166bb4b8590c89b876c403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/FloorTileSidesURP/Floor1_inner_Floor1_net_Normal.png using Guid(b80edd13d9166bb4b8590c89b876c403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c537cf084cb245bc9243542876484c2a') in 0.011032 seconds 
+  Import took 0.021985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/FloorTilesCornerURP/Floor1_inner_Floor1__Normal.png
+  artifactKey: Guid(c84cd89030100f446b26d49d38a84cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/FloorTilesCornerURP/Floor1_inner_Floor1__Normal.png using Guid(c84cd89030100f446b26d49d38a84cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7d0b9a7bb14727f52137e1673ab1c7') in 0.012413 seconds 
+  Import took 0.023278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/TopLeftCorner/Floor1_inner_Floor1_back_Normal.jpg
+  artifactKey: Guid(fcd5a5a058de42a4bbe21d065df1d49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/TopLeftCorner/Floor1_inner_Floor1_back_Normal.jpg using Guid(fcd5a5a058de42a4bbe21d065df1d49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1a10feff287c7b8a5c954e07d42616') in 0.010954 seconds 
+  Import took 0.021287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Prefabs/Models/(200 - 299) Weapons/(203) Illustrious Hammer/Hammer1/Materials/Textures/Hammer_HammerHead_Normal.png
+  artifactKey: Guid(6703d2668fabd7e42b8353a85c95d2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/(200 - 299) Weapons/(203) Illustrious Hammer/Hammer1/Materials/Textures/Hammer_HammerHead_Normal.png using Guid(6703d2668fabd7e42b8353a85c95d2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c242a3ee78bc788525a6a623d4b6bb') in 0.012097 seconds 
+  Import took 0.023618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesMiddleMaterials/FloorTilesMiddleURP/Floor1_inner_Floor1_back_Normal.png
+  artifactKey: Guid(326c779db5744054d9fb79ca11fcaf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesMiddleMaterials/FloorTilesMiddleURP/Floor1_inner_Floor1_back_Normal.png using Guid(326c779db5744054d9fb79ca11fcaf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16975a274cc155065b9986b08f2452bd') in 0.010260 seconds 
+  Import took 0.020778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/RightFloorTile/Floor1_inner_Floor1_back_Normal.png
+  artifactKey: Guid(fd570a03a7c6f0a42b89586a65e74600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/RightFloorTile/Floor1_inner_Floor1_back_Normal.png using Guid(fd570a03a7c6f0a42b89586a65e74600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5510d90cc5d16761abdf631c252e7cb9') in 0.009137 seconds 
+  Import took 0.022438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/DownFloorTiles/Floor1_inner_Floor1__Normal.png
+  artifactKey: Guid(b9e2fde91e53b844b81a69b6567ca13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/DownFloorTiles/Floor1_inner_Floor1__Normal.png using Guid(b9e2fde91e53b844b81a69b6567ca13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a242a0fec176e70789121ae31d3448') in 0.011127 seconds 
+  Import took 0.023450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/UpFloorTilePBR/Floor1_inner_Floor1__Normal.png
+  artifactKey: Guid(f756632795416494d86eac28561a497a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/UpFloorTilePBR/Floor1_inner_Floor1__Normal.png using Guid(f756632795416494d86eac28561a497a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9401e66c7d3d6b79f1e075de2352dd') in 0.009865 seconds 
+  Import took 0.023226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/BottomRight/Floor1_inner_Floor1_back_Normal.jpg
+  artifactKey: Guid(eb48b28a340c8f14fae48c15b080a48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/BottomRight/Floor1_inner_Floor1_back_Normal.jpg using Guid(eb48b28a340c8f14fae48c15b080a48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfebf6b9872d2da8bcd58aeb0237f599') in 0.009431 seconds 
+  Import took 0.021878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Prefabs/Models/Enemies/FlyingEnemy/FlyingEnemyImportedAssets/Textures/URP_FlyingEnemy/flyingBot8_blue_flame_flyingbot_mat_Normal.png
+  artifactKey: Guid(35039f8a77680d84ca3a707078e44a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Enemies/FlyingEnemy/FlyingEnemyImportedAssets/Textures/URP_FlyingEnemy/flyingBot8_blue_flame_flyingbot_mat_Normal.png using Guid(35039f8a77680d84ca3a707078e44a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4aa1a0f98e890081728f7762595833') in 0.009287 seconds 
+  Import took 0.021056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/UpFloorTilePBR/Floor1_inner_Floor1_net_Normal.png
+  artifactKey: Guid(f771110688496e041ade99390a17406c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/UpFloorTilePBR/Floor1_inner_Floor1_net_Normal.png using Guid(f771110688496e041ade99390a17406c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d54cd914d554bc9614da38df0ed406') in 0.009649 seconds 
+  Import took 0.021280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/CONTROLROOM/CableWall/CableWall_plastic_mat_Normal.png
+  artifactKey: Guid(3ee299c4ad9d8a146b8cad41817ae453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CONTROLROOM/CableWall/CableWall_plastic_mat_Normal.png using Guid(3ee299c4ad9d8a146b8cad41817ae453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f05f5bda7002deb694d229b811e2b61') in 0.012262 seconds 
+  Import took 0.023341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/TopRightCorner/Floor1_inner_Floor1__Normal.jpg
+  artifactKey: Guid(7049324baa5a09b4395557ef7b344a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/TopRightCorner/Floor1_inner_Floor1__Normal.jpg using Guid(7049324baa5a09b4395557ef7b344a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3721ebba29f06e89f7fdd63031104664') in 0.008880 seconds 
+  Import took 0.020160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/UpFloorTileURP/Floor1_inner_Floor1_back_Normal.png
+  artifactKey: Guid(e197dfadb23b51649adf38f5d5bd498b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/UpFloorTileURP/Floor1_inner_Floor1_back_Normal.png using Guid(e197dfadb23b51649adf38f5d5bd498b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86df7407218596a26d98afe39adb8db') in 0.009399 seconds 
+  Import took 0.019614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Prefabs/Models/Environment Items/StoneRamp_Bannisters/FrontBannisterTextures/Banister_Bottom_grey_metallic_mat_Normal.png
+  artifactKey: Guid(11447c7b4ec00074d9c45f724f2eaae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/StoneRamp_Bannisters/FrontBannisterTextures/Banister_Bottom_grey_metallic_mat_Normal.png using Guid(11447c7b4ec00074d9c45f724f2eaae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7861fccc5f30bd40a91b00099ea0ad85') in 0.010779 seconds 
+  Import took 0.022551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Cablebox/cableboxupdate/buttonbox/buttonbox_redbotton_mat_Normal.png
+  artifactKey: Guid(ce25df44830ec9445b284b60271cdffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cablebox/cableboxupdate/buttonbox/buttonbox_redbotton_mat_Normal.png using Guid(ce25df44830ec9445b284b60271cdffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a420236b6a6cf45f6e5620df34c8fc33') in 0.011834 seconds 
+  Import took 0.022816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Prefabs/Models/Enemies/FlyingEnemy/FlyingEnemyImportedAssets/Textures/URP_FlyingEnemy/flyingBot8_head_flyingbot_mat_Normal.png
+  artifactKey: Guid(e8dd3e60c530cc94d852dc9acc330488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Enemies/FlyingEnemy/FlyingEnemyImportedAssets/Textures/URP_FlyingEnemy/flyingBot8_head_flyingbot_mat_Normal.png using Guid(e8dd3e60c530cc94d852dc9acc330488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a687f9c6cdb770eae035120c0d600767') in 0.011735 seconds 
+  Import took 0.024077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Prefabs/Models/(200 - 299) Weapons/(205) Ordinary Hammer/materials/Textures/hammer2_HammerEnds_mat_Normal.png
+  artifactKey: Guid(03f01ee66937bc345b659638644b6aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/(200 - 299) Weapons/(205) Ordinary Hammer/materials/Textures/hammer2_HammerEnds_mat_Normal.png using Guid(03f01ee66937bc345b659638644b6aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ef060262a9d10ebd95db2e3e0b64d1') in 0.011082 seconds 
+  Import took 0.022073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Prefabs/Models/(200 - 299) Weapons/(203) Illustrious Hammer/Hammer1/Materials/Textures/Hammer_RubberHandle_Normal.png
+  artifactKey: Guid(c091812cc20e8d04fbbc4f87d88d19da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/(200 - 299) Weapons/(203) Illustrious Hammer/Hammer1/Materials/Textures/Hammer_RubberHandle_Normal.png using Guid(c091812cc20e8d04fbbc4f87d88d19da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e64d76df1805359919b569c5dce797') in 0.012349 seconds 
+  Import took 0.023424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/TopLeftCorner/Floor1_inner_Floor1_net_Normal.jpg
+  artifactKey: Guid(734313d8532189143a1cd6cf1e8868b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/TopLeftCorner/Floor1_inner_Floor1_net_Normal.jpg using Guid(734313d8532189143a1cd6cf1e8868b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e9de05e08595f5f34e237b8d1c4e25') in 0.012977 seconds 
+  Import took 0.024100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sam/Character/FreeCharacter/Textures/Body_Normal_01.psd
+  artifactKey: Guid(b7962e4d69e932c498775fe53fe19305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sam/Character/FreeCharacter/Textures/Body_Normal_01.psd using Guid(b7962e4d69e932c498775fe53fe19305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607d14569296f8f7ecb0bad18f9f58ee') in 0.020140 seconds 
+  Import took 0.035651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Prefabs/Models/CraftingMaterials/Materials/NickelTextures/craftingassets_drops_nickel_mat_Normal.png
+  artifactKey: Guid(ec512b0a264853347a03f0f45745ae76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/CraftingMaterials/Materials/NickelTextures/craftingassets_drops_nickel_mat_Normal.png using Guid(ec512b0a264853347a03f0f45745ae76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828ab1fc355ad5662a6fca0d6ce75d09') in 0.010717 seconds 
+  Import took 0.022568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/CONTROLROOM/CableWall/CableWall_darkmetallic_mat_Normal.png
+  artifactKey: Guid(45bf4a60bbd08cd48913faa255f4eccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CONTROLROOM/CableWall/CableWall_darkmetallic_mat_Normal.png using Guid(45bf4a60bbd08cd48913faa255f4eccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd744680e6236ef2614a7e1e5fb3226c5') in 0.011832 seconds 
+  Import took 0.023997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorL_Textures/Door_L_emissive_orange_mat_Normal.png
+  artifactKey: Guid(914432120127f4247a641fb0eb8e8e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorL_Textures/Door_L_emissive_orange_mat_Normal.png using Guid(914432120127f4247a641fb0eb8e8e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966fd59578a7f0f64d59d849bebbf78d') in 0.008582 seconds 
+  Import took 0.018637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/UpFloorTilePBR/Floor1_inner_Floor1_back_Normal.png
+  artifactKey: Guid(0ddce95d7f43807429ca22a169de1cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/UpFloorTilePBR/Floor1_inner_Floor1_back_Normal.png using Guid(0ddce95d7f43807429ca22a169de1cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837f3872e0e172690904f5ec990d33f9') in 0.009000 seconds 
+  Import took 0.018612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Cablebox/wireboxmid/Cablebox_Normal.PNG
+  artifactKey: Guid(11e2c31c43af99a40a50ec48bad47443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cablebox/wireboxmid/Cablebox_Normal.PNG using Guid(11e2c31c43af99a40a50ec48bad47443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5deaeb1ebc827c75dd1b167e2410b7c5') in 0.010557 seconds 
+  Import took 0.022646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/FloorTilesCornerPBR/Floor1_inner_Floor1__Normal.png
+  artifactKey: Guid(9af91c404e39b984987107b12e1c8813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesCornerMaterials/FloorTilesCornerPBR/Floor1_inner_Floor1__Normal.png using Guid(9af91c404e39b984987107b12e1c8813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ead4c0685b6846f29d9d42940a63ac') in 0.010825 seconds 
+  Import took 0.022539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Prefabs/Models/Environment Items/ConveyerBelt/ConveyerBeltTextures/belt1_box_mat1_Normal.png
+  artifactKey: Guid(4593ea87cce93f64d810d48560b63611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/ConveyerBelt/ConveyerBeltTextures/belt1_box_mat1_Normal.png using Guid(4593ea87cce93f64d810d48560b63611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2ee37a4f7901eee21f3d353f12ff1a') in 0.010260 seconds 
+  Import took 0.022235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorL_Textures/Door_L_grey_metallic_mat_Normal.png
+  artifactKey: Guid(3ef7678be3237cf42a5e2866eead1ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorL_Textures/Door_L_grey_metallic_mat_Normal.png using Guid(3ef7678be3237cf42a5e2866eead1ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95dd8c449138a05b10ce2a0ad002be36') in 0.012093 seconds 
+  Import took 0.022444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/DownFloorTiles/Floor1_inner_Floor1_back_Normal.png
+  artifactKey: Guid(604c71cbc0575df489e3862b3e72def6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/RoomBuilder/FloorTIles/FloorTilesSidesMaterials/DownFloorTiles/Floor1_inner_Floor1_back_Normal.png using Guid(604c71cbc0575df489e3862b3e72def6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be88939563cc199770940a75d256a280') in 0.010823 seconds 
+  Import took 0.022446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Prefabs/Models/Health/Healing Box/healingbox_metal_Normal.png
+  artifactKey: Guid(d0a6ac19e9130fb48b571ff08a41628e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Health/Healing Box/healingbox_metal_Normal.png using Guid(d0a6ac19e9130fb48b571ff08a41628e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c33f845da6138438df2bb814656828') in 0.013304 seconds 
+  Import took 0.023969 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005907 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Uni\FinalYear\SupplyChain\SupplyChainFinalNotExe\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Uni\FinalYear\SupplyChain\SupplyChainFinalNotExe\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.726 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1726ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1520ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (400ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (768ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (555ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.04 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 5736 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 257.1 MB.
+System memory in use after: 257.5 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 6474.
+Total: 9.404200 ms (FindLiveObjects: 0.816100 ms CreateObjectMapping: 0.554300 ms MarkObjects: 7.894400 ms  DeleteObjects: 0.137500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004735 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Uni\FinalYear\SupplyChain\SupplyChainFinalNotExe\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Uni\FinalYear\SupplyChain\SupplyChainFinalNotExe\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.535 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1535ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1356ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (389ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (656ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (486ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 5736 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 257.1 MB.
+System memory in use after: 257.6 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 6477.
+Total: 8.586200 ms (FindLiveObjects: 0.529500 ms CreateObjectMapping: 0.897700 ms MarkObjects: 7.053400 ms  DeleteObjects: 0.104400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004708 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Uni\FinalYear\SupplyChain\SupplyChainFinalNotExe\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Uni\FinalYear\SupplyChain\SupplyChainFinalNotExe\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.660 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1660ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1474ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (407ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (729ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (550ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 5736 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 257.2 MB.
+System memory in use after: 257.6 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 6480.
+Total: 7.740900 ms (FindLiveObjects: 0.611000 ms CreateObjectMapping: 0.408100 ms MarkObjects: 6.609900 ms  DeleteObjects: 0.110500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 149.738713 seconds.
+  path: Assets/Scripts/Gameplay/Quest/DestroyOnCollision.cs
+  artifactKey: Guid(3839cbe9813e19d41b702f9def3cef89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gameplay/Quest/DestroyOnCollision.cs using Guid(3839cbe9813e19d41b702f9def3cef89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601c50a882b188e0477bc91135628dbe') in 0.008039 seconds 
+  Import took 0.018653 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004817 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.96 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Uni\FinalYear\SupplyChain\SupplyChainFinalNotExe\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Uni\FinalYear\SupplyChain\SupplyChainFinalNotExe\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.544 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1545ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1367ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (370ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (684ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (511ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.84 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 5736 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 257.2 MB.
+System memory in use after: 257.6 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 6483.
+Total: 7.988800 ms (FindLiveObjects: 0.532900 ms CreateObjectMapping: 0.387800 ms MarkObjects: 6.961200 ms  DeleteObjects: 0.105700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 77.283241 seconds.
+  path: Assets/Prefabs/Models/Environment Items/Barrel/Materials/Textures/Barrel_BarrelMain_AlbedoTransparency.png
+  artifactKey: Guid(89e47e1fd2ff92742be773c3696be48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/Barrel/Materials/Textures/Barrel_BarrelMain_AlbedoTransparency.png using Guid(89e47e1fd2ff92742be773c3696be48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6c776e2fea6f5439866d6bf4de4f27') in 0.054943 seconds 
+  Import took 0.066275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Megapoly.Art/Vintage Controls/Materials/Main Offset 1.mat
+  artifactKey: Guid(5e3a75a487d005a4ab6cfcdb0468646a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megapoly.Art/Vintage Controls/Materials/Main Offset 1.mat using Guid(5e3a75a487d005a4ab6cfcdb0468646a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e16505f159537cf5e404d3154ab7c5') in 0.138224 seconds 
+  Import took 0.147090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/zMaxanim/RoamingV4_2_triggered.fbx
+  artifactKey: Guid(c291eefbbd8568546bc06281c87bd38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/zMaxanim/RoamingV4_2_triggered.fbx using Guid(c291eefbbd8568546bc06281c87bd38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4cd1213f210630e6f72e30646699bd') in 0.441976 seconds 
+  Import took 0.451180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/Mat_Enemy1Roamer/rob_texture_gunmain_mat_AlbedoTransparency.png
+  artifactKey: Guid(f3bc3cbcbbd9958419e4a7dec1c39f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/Mat_Enemy1Roamer/rob_texture_gunmain_mat_AlbedoTransparency.png using Guid(f3bc3cbcbbd9958419e4a7dec1c39f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313b71d7cd6961b33e4d8d41b8a9d68b') in 0.008884 seconds 
+  Import took 0.017893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/RAW_import_Robot1Roamer.fbx
+  artifactKey: Guid(ab01608712e5c2d4f80b94fdacbab63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/RAW_import_Robot1Roamer.fbx using Guid(ab01608712e5c2d4f80b94fdacbab63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8240c1cb87dd4036169788ed30523fe') in 0.102704 seconds 
+  Import took 0.111429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Megapoly.Art/Vintage Controls/Materials/Main Offset 3.mat
+  artifactKey: Guid(d2024b96d176db64581fab83bf6c4fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megapoly.Art/Vintage Controls/Materials/Main Offset 3.mat using Guid(d2024b96d176db64581fab83bf6c4fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac4666b8699efef644dee9281f9234e') in 0.009258 seconds 
+  Import took 0.018203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/zMaxanim/RoamingV4_4_beingHit_.fbx
+  artifactKey: Guid(85fa4c5fd41cfad4eb361141c2f4648a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/zMaxanim/RoamingV4_4_beingHit_.fbx using Guid(85fa4c5fd41cfad4eb361141c2f4648a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e505623c0df0ed1362976d15b92ca3') in 0.100299 seconds 
+  Import took 0.109882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Prefabs/Models/Environment Items/WireBox/Materials/Textures/WireBox_WireBoxMain_AlbedoTransparency.png
+  artifactKey: Guid(d500a8bb7d8ab474091be3c26dbb3970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/WireBox/Materials/Textures/WireBox_WireBoxMain_AlbedoTransparency.png using Guid(d500a8bb7d8ab474091be3c26dbb3970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0a1c955cc76af8d9b6a45a81c8108f') in 0.007928 seconds 
+  Import took 0.016368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/zMaxanim/RoamingV4_1_idle.fbx
+  artifactKey: Guid(7bd35a9476e18c6438a7340801973b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/zMaxanim/RoamingV4_1_idle.fbx using Guid(7bd35a9476e18c6438a7340801973b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e2e5dbf825a6a65322727bbcc1e522') in 0.100160 seconds 
+  Import took 0.109427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001008 seconds.
+  path: Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorR_Textures/RDoorMainMAT.mat
+  artifactKey: Guid(cce3a63c99e0d494391c038ab97d82d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorR_Textures/RDoorMainMAT.mat using Guid(cce3a63c99e0d494391c038ab97d82d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6065b25e95fbcad4bd8198dc3862ddad') in 0.020221 seconds 
+  Import took 0.029296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Prefabs/Models/Characters/Player/VR Janitor/VR_Janitor/VRJanitorMaterials/VRJanitor_PBR/ToTexture_bracelet_main_mat_Metallic.png
+  artifactKey: Guid(99ba61edd234a2d4f948bdb656e1e877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Characters/Player/VR Janitor/VR_Janitor/VRJanitorMaterials/VRJanitor_PBR/ToTexture_bracelet_main_mat_Metallic.png using Guid(99ba61edd234a2d4f948bdb656e1e877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f9c2074608116520cdcbbec43047e9') in 0.010469 seconds 
+  Import took 0.020543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Prefabs/Models/Characters/Player/VR Janitor/VR_Janitor/VRJanitorMaterials/VRJanitor_URP/ToTexture_bracelet_main_mat_Normal.png
+  artifactKey: Guid(baa693ec3988774479585d5e1ee72a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Characters/Player/VR Janitor/VR_Janitor/VRJanitorMaterials/VRJanitor_URP/ToTexture_bracelet_main_mat_Normal.png using Guid(baa693ec3988774479585d5e1ee72a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4630bcf44a27de0676a3273cfea65c02') in 0.008996 seconds 
+  Import took 0.017849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Prefabs/Models/Characters/Player/VR Janitor/VR_Janitor/VRJanitorMaterials/VRJanitor_URP/ToTexture_bracelet_main_mat_MetallicSmoothness.png
+  artifactKey: Guid(60e4995c184edc747b8a113b454d450d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Characters/Player/VR Janitor/VR_Janitor/VRJanitorMaterials/VRJanitor_URP/ToTexture_bracelet_main_mat_MetallicSmoothness.png using Guid(60e4995c184edc747b8a113b454d450d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1aac5c5b14d33541078979dcb147e36') in 0.011176 seconds 
+  Import took 0.020616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/Mat_Enemy1Roamer/rob_texture_gunmain_mat_MetallicSmoothness.png
+  artifactKey: Guid(0d8144892bc60d044bfa5e2c6969e701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/Mat_Enemy1Roamer/rob_texture_gunmain_mat_MetallicSmoothness.png using Guid(0d8144892bc60d044bfa5e2c6969e701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488c5f315c00a33d61e648a65691c701') in 0.010592 seconds 
+  Import took 0.020334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/zMaxanim/RoamingV4_6_walking.fbx
+  artifactKey: Guid(f9545ef4b53ac1c41907724cf1455ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/zMaxanim/RoamingV4_6_walking.fbx using Guid(f9545ef4b53ac1c41907724cf1455ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cb9673b0165efd908764927bbaef38') in 0.101660 seconds 
+  Import took 0.111765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Prefabs/Models/Environment Items/Barrel/Materials/Textures/Barrel_BarrelMain_Roughness.png
+  artifactKey: Guid(f3b7e65310441ec4cae6262baad5fdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/Barrel/Materials/Textures/Barrel_BarrelMain_Roughness.png using Guid(f3b7e65310441ec4cae6262baad5fdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1418d0e7d02751466fb67c67eda4a2f3') in 0.010746 seconds 
+  Import took 0.019706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/zMaxanim/RoamingV4_3_attack.fbx
+  artifactKey: Guid(5fe7432856c1e454982aa78d433a0a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/zMaxanim/RoamingV4_3_attack.fbx using Guid(5fe7432856c1e454982aa78d433a0a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e142f2fc59b05ddd2fbad3aba0aa4e6') in 0.103924 seconds 
+  Import took 0.113511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorL_Textures/LDoorMainMAT.mat
+  artifactKey: Guid(6fa86209fd26fbe4cb307fa470dc82d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/SlidingDoors/SlidingDoorL_Textures/LDoorMainMAT.mat using Guid(6fa86209fd26fbe4cb307fa470dc82d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9272f0cbe62b56ead7b918ecd36ee71') in 0.019231 seconds 
+  Import took 0.028701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/Mat_Enemy1Roamer/rob_texture_gunmain_mat_Normal.png
+  artifactKey: Guid(d920e6b2a9aa96a4aaa341b672687b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/Mat_Enemy1Roamer/rob_texture_gunmain_mat_Normal.png using Guid(d920e6b2a9aa96a4aaa341b672687b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1152e8882512110dd2d0d84da8cf27') in 0.009902 seconds 
+  Import took 0.019281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/Mat_Enemy1Roamer/rob_texture_gunmain_mat_Emission.png
+  artifactKey: Guid(f09827afc2018ff47a4a96cde5f999f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/Mat_Enemy1Roamer/rob_texture_gunmain_mat_Emission.png using Guid(f09827afc2018ff47a4a96cde5f999f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2317fea773581d27715fc63767bfc274') in 0.008636 seconds 
+  Import took 0.017570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Megapoly.Art/Vintage Controls/Materials/Main.mat
+  artifactKey: Guid(902693e8727b16d4db4268c92babb632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megapoly.Art/Vintage Controls/Materials/Main.mat using Guid(902693e8727b16d4db4268c92babb632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7338cabd2951b4130cd9abd238062192') in 0.010094 seconds 
+  Import took 0.019193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/zMaxanim/RoamingBot_v4.fbx
+  artifactKey: Guid(30bc126c828de4b40a27d7d2785c8694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/zMaxanim/RoamingBot_v4.fbx using Guid(30bc126c828de4b40a27d7d2785c8694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044d5bd61e9f5686b67fd6f8dd2eff62') in 0.104478 seconds 
+  Import took 0.115318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/zMaxanim/RoamingV4_5_destroyed.fbx
+  artifactKey: Guid(c3c48a5891565474ebcc2c4f1718c49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Characters/Enemies/Robots/Roaming, Wheeled/Assets/zMaxanim/RoamingV4_5_destroyed.fbx using Guid(c3c48a5891565474ebcc2c4f1718c49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7f3c633700fa0f3da556787b8711d5') in 0.099500 seconds 
+  Import took 0.108245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Prefabs/Models/Characters/Player/VR Janitor/VR_Janitor/VRJanitorMaterials/VRJanitorBraceletMainMAT.mat
+  artifactKey: Guid(922a82e93550d364aa66b708c9726ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Characters/Player/VR Janitor/VR_Janitor/VRJanitorMaterials/VRJanitorBraceletMainMAT.mat using Guid(922a82e93550d364aa66b708c9726ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2942996bb451a867ae60ef80b489bd22') in 0.653676 seconds 
+  Import took 0.662310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.1/XR Device Simulator/XR Device Simulator Controls.inputactions
+  artifactKey: Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.1/XR Device Simulator/XR Device Simulator Controls.inputactions using Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8566be15a8f7bd3a1b6c21d13b3f1d1d') in 0.026739 seconds 
+  Import took 0.035347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Prefabs/Models/Environment Items/Barrel/Materials/Textures/Barrel_BarrelMain_MetallicSmoothness.png
+  artifactKey: Guid(6defcd3fe1c47084c85fab0ed0ade10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/Barrel/Materials/Textures/Barrel_BarrelMain_MetallicSmoothness.png using Guid(6defcd3fe1c47084c85fab0ed0ade10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5756f6239e3171d5a1a5e8537cca39') in 0.010041 seconds 
+  Import took 0.019454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Prefabs/UI/Main Menu/Main Menu Title Panel.png
+  artifactKey: Guid(c1ebf88f1f589674b84e03e42744dcac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Main Menu/Main Menu Title Panel.png using Guid(c1ebf88f1f589674b84e03e42744dcac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2966a879987a6c5c098e14e08c946f') in 0.025363 seconds 
+  Import took 0.034003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Megapoly.Art/Vintage Controls/Materials/Main Offset 2.mat
+  artifactKey: Guid(eb191781382dffe4eb4c319d3e55c862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megapoly.Art/Vintage Controls/Materials/Main Offset 2.mat using Guid(eb191781382dffe4eb4c319d3e55c862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdb5f3b79f12030966b2bae1b663254') in 0.009476 seconds 
+  Import took 0.018465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Prefabs/Models/Characters/Player/VR Janitor/VR_Janitor/VRJanitorMaterials/VRJanitor_URP/ToTexture_bracelet_main_mat_BaseMap.png
+  artifactKey: Guid(2419f36c03b1ae746a1397fad4b04750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Characters/Player/VR Janitor/VR_Janitor/VRJanitorMaterials/VRJanitor_URP/ToTexture_bracelet_main_mat_BaseMap.png using Guid(2419f36c03b1ae746a1397fad4b04750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cce4eba273762fe442d7b72f76f9744') in 0.009334 seconds 
+  Import took 0.018673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Prefabs/Models/Environment Items/Barrel/Materials/Textures/BarrelMainMAT.mat
+  artifactKey: Guid(3dbc3aa1fa593aa4da44cc22f811bbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Environment Items/Barrel/Materials/Textures/BarrelMainMAT.mat using Guid(3dbc3aa1fa593aa4da44cc22f811bbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e053f5b3ad1bcba1fb1e16ff1167cb8b') in 0.015859 seconds 
+  Import took 0.026188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Prefabs/Models/Characters/Player/VR Janitor/VR_Janitor/VRJanitor_rigged.fbx
+  artifactKey: Guid(046cf9fdd8544f04eab5298d01785169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Characters/Player/VR Janitor/VR_Janitor/VRJanitor_rigged.fbx using Guid(046cf9fdd8544f04eab5298d01785169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df87bacb9aa6539466af7ccc82f6d6e') in 0.079148 seconds 
+  Import took 0.088508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.209076 seconds.
+  path: Assets/Prefabs/UI/Loading Screen/Loading Screen.prefab
+  artifactKey: Guid(c997ed34729c9394f802028fd25ad1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Loading Screen/Loading Screen.prefab using Guid(c997ed34729c9394f802028fd25ad1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd0a30330dcf0c0fe283802b3097d8e') in 0.053312 seconds 
+  Import took 0.062091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.402753 seconds.
+  path: Assets/Scripts/Josh (Main)/Scripts/Loading Screen
+  artifactKey: Guid(280a70a952424034b839748c7049731b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Josh (Main)/Scripts/Loading Screen using Guid(280a70a952424034b839748c7049731b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf2770f66da7e022b9ebefdf229e5f0') in 0.029978 seconds 
+  Import took 0.039251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.484943 seconds.
+  path: Assets/Scripts/Josh (Main)/Scripts/Title Screen & Main Menu
+  artifactKey: Guid(c05e5fc645455f94cb69366917d3425d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Josh (Main)/Scripts/Title Screen & Main Menu using Guid(c05e5fc645455f94cb69366917d3425d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70568853340a9e88ef4ac74502666ea3') in 0.002200 seconds 
+  Import took 0.011451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.906203 seconds.
+  path: Assets/Scripts/shark monster truck (1).prefab
+  artifactKey: Guid(7402f5e7677b07544a740339ac771141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/shark monster truck (1).prefab using Guid(7402f5e7677b07544a740339ac771141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1321d9b12950997921290f848ee024') in 0.006230 seconds 
+  Import took 0.014711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.808017 seconds.
+  path: Assets/Scenes/(1) Loading & Main Menu
+  artifactKey: Guid(6a52fcdb4252d0148881cb96ea3dc2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/(1) Loading & Main Menu using Guid(6a52fcdb4252d0148881cb96ea3dc2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65ed254c30dc87db2dfb0a991467036') in 0.002021 seconds 
+  Import took 0.011784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.002979 seconds.
+  path: Assets/Scenes/(1) Loading & Main Menu/Loading Scene.unity
+  artifactKey: Guid(33eb29764cbf7f14ca4241194382be5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/(1) Loading & Main Menu/Loading Scene.unity using Guid(33eb29764cbf7f14ca4241194382be5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5840b96e8fb77caa2ab8acd26708cf') in 0.002200 seconds 
+  Import took 0.011675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.034125 seconds.
+  path: Assets/Scenes/(1) Loading & Main Menu/Pre-Title.unity
+  artifactKey: Guid(c3bae5e1720ede24abd081f0762715c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/(1) Loading & Main Menu/Pre-Title.unity using Guid(c3bae5e1720ede24abd081f0762715c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3821a756fe92b5b4990bbfac1b357f0d') in 0.020205 seconds 
+  Import took 0.029163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.602538 seconds.
+  path: Assets/Scenes/(1) Loading & Main Menu/Title Screen & Main Menu.unity
+  artifactKey: Guid(6cd112eabd7e31f43ad70d88618e1933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/(1) Loading & Main Menu/Title Screen & Main Menu.unity using Guid(6cd112eabd7e31f43ad70d88618e1933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1aa1b7a129eac2a2dd07d3e470172e4') in 0.002173 seconds 
+  Import took 0.011595 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005296 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Uni\FinalYear\SupplyChain\SupplyChainFinalNotExe\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Uni\FinalYear\SupplyChain\SupplyChainFinalNotExe\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.598 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1598ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1408ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (393ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (682ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (504ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 5740 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 273.5 MB.
+System memory in use after: 273.9 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 6533.
+Total: 8.884300 ms (FindLiveObjects: 0.519800 ms CreateObjectMapping: 0.334500 ms MarkObjects: 7.828400 ms  DeleteObjects: 0.199200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004979 seconds.
+Begin MonoManager ReloadAssembly
+Received signal SIGSEGV
+Stack trace:
+0x00007ff6d53cdd96 (Unity) ExecuteSerializationCommands<ConfigSettingsRead>
+0x00007ff6d6bf19d2 (Unity) Transfer_ManagedObject<StreamedBinaryWrite,0>
+0x00007ff6d666f246 (Unity) ExecuteSerializationCommands<SafeBinaryRead>
+0x00007ff6d667669e (Unity) TransferScriptingObject<StreamedBinaryWrite,0>
+0x00007ff6d6687e9f (Unity) SerializableManagedRefBackupGenerator::ExtractBackupFromInstance
+0x00007ff6d6b41e0e (Unity) MonoBehaviour::BackupAndDeflateManagedReferences
+0x00007ff6d6c047b1 (Unity) SerializableManagedRefsUtilities::BackupAndDeflateAll
+0x00007ff6d6b42221 (Unity) MonoManager::BeginReloadAssembly
+0x00007ff6d6b4b29b (Unity) MonoManager::ReloadAssembly
+0x00007ff6d7f3e561 (Unity) LoadDomainAndUserAssemblies
+0x00007ff6d7f3ea0e (Unity) LoadUserAssemblies
+0x00007ff6d83b5a28 (Unity) <lambda_d5cd3abeeb3ed75489242b6b28c1fa53>::operator()
+0x00007ff6d84595f2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff6d845b750 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6d845eede (Unity) asio::io_service::run
+0x00007ff6d83e20bb (Unity) RunAssetImportWorkerClientV2
+0x00007ff6d83e2110 (Unity) RunAssetImporterV2
+0x00007ff6d78a55b6 (Unity) Application::InitializeProject
+0x00007ff6d8251342 (Unity) WinMain
+0x00007ff6da0a69b6 (Unity) __scrt_common_main_seh
+0x00007ff87a9e54e0 (KERNEL32) BaseThreadInitThunk
+0x00007ff87bae485b (ntdll) RtlUserThreadStart
+
