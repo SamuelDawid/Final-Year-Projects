@@ -1,0 +1,240 @@
+# VR Fitness Game - Final Year Project
+
+A Unity-based VR fitness application inspired by rhythm games like Beat Saber, designed to provide an engaging workout experience through hand tracking and motion-based gameplay.
+
+## 🎮 Game Overview
+
+This VR fitness game features multiple tracks with different gameplay mechanics:
+- **Track 1**: Basic cube hitting with hand detection
+- **Track 2 & 3**: Enhanced cube slicing with shields and special mechanics
+- **Track 4**: Advanced saber-based gameplay with combo systems
+
+## 🛠️ Technical Stack
+
+- **Engine**: Unity (XR Toolkit)
+- **Platform**: VR Headsets (Oculus/Meta Quest compatible)
+- **Programming Language**: C#
+- **Audio**: Rhythm-based beat detection system
+- **Input**: VR controllers with hand tracking
+
+## 🏗️ Architecture
+
+### Core Systems
+
+#### Event System (`EventSystem.cs`)
+- Centralized event management using C# Action delegates
+- Handles communication between game components
+- Manages state changes, scoring, and audio events
+
+#### Game Manager (`GameManager.cs`)
+- Main game loop and state management
+- Track progression and level completion logic
+- Audio synchronization with gameplay beats
+- VR controller input handling
+
+#### Global State Management (`GlobalStaticScript.cs`)
+- Static variables for game state persistence
+- Score tracking and player progression
+- Multiple enum-based state systems for different game phases
+
+### Gameplay Components
+
+#### Block System (`Blocks.cs`)
+- Color-coded blocks (Red/Green) for left/right hand detection
+- Collision detection using Unity's physics system
+- Score calculation on successful hits
+
+#### Audio Management (`AudioManger.cs`)
+- SFX and recording playback system
+- Event-driven audio triggering
+- Persistent audio across scene loads
+
+#### Input System
+- Custom input handling for VR controllers (`InputManager.cs`, `ButtonHandler.cs`)
+- Primary/Secondary button detection
+- Extensible architecture for future input types
+
+## 🎯 Game Features
+
+### Multi-Track Progression
+1. **Track 1**: Hand-based cube hitting with 6 spawn positions
+2. **Track 2**: Enhanced mechanics with shield activation
+3. **Track 3**: Advanced shield mechanics requiring hand proximity
+4. **Track 4**: Saber combat with angle-based hit detection
+
+### Scoring System
+- Base score: 10 points per hit
+- Combo multiplier system (activates at 10+ combo)
+- Penalty system for missed hits (-10 points)
+- Real-time score updates
+
+### VR-Specific Features
+- Hand tracking and gesture recognition
+- Spatial audio integration
+- Comfortable VR movement and interaction
+- Height adjustment system for different users
+
+## 📁 Project Structure
+
+```
+Assets/Scripts/
+├── InGame/
+│   ├── AudioManger.cs
+│   ├── Blocks.cs
+│   ├── EventSystem.cs
+│   ├── GameManager.cs
+│   ├── GlobalStaticScript.cs
+│   ├── InputManagement/
+│   ├── Track1/
+│   ├── Track2 and 3/
+│   ├── Track4(Saber)/
+│   └── UI/
+├── InGym/
+│   ├── GameManagerGym.cs
+│   └── [Gym environment scripts]
+└── [Utility scripts]
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Unity 2021.3 LTS or newer
+- XR Interaction Toolkit
+- VR headset (Oculus Quest, Rift, etc.)
+- VR-capable PC or standalone VR device
+
+### Installation
+1. Clone this repository
+2. Open the project in Unity
+3. Ensure XR Interaction Toolkit is installed via Package Manager
+4. Configure XR settings for your target VR platform
+5. Build and deploy to your VR device
+
+### Controls
+- **Primary Button**: Pause/Menu access
+- **Secondary Button**: Start game
+- **Hand Tracking**: Block interaction and hitting
+- **Controller Movement**: Navigate menus and gameplay
+
+## 🔧 Code Quality Assessment
+
+### Strengths
+- ✅ Modular event-driven architecture with custom EventSystem
+- ✅ Clean separation of concerns between systems
+- ✅ Extensible input handling system using ScriptableObjects
+- ✅ Multiple gameplay mechanics implemented across 4 tracks
+- ✅ VR-specific optimizations and considerations
+- ✅ Successful heart rate integration achieving 120-140 BPM target zone
+- ✅ 87.5% user satisfaction rate for encouraging exercise
+
+### Critical Issues Identified
+
+#### 1. **Over-reliance on Static Variables**
+The `GlobalStaticScript` abstract class containing all static variables creates:
+- Tight coupling between components
+- Difficulty in unit testing
+- Memory management issues
+- Thread safety concerns in VR environments
+
+#### 2. **Performance Bottlenecks**
+- Multiple `FixedUpdate()` methods with expensive operations
+- Sphere casting every frame in `Blocks.cs`
+- No object pooling for frequently instantiated cubes
+- All cubes loaded simultaneously causing frame drops
+
+#### 3. **VR-Specific Problems**
+- Airlink connectivity issues requiring factory resets
+- Visual effects causing VR sickness (had to be removed)
+- Sweat accumulation and headset comfort issues
+- Limited cable length restricting movement
+
+#### 4. **Code Quality Issues**
+- Hard-coded magic numbers (0.1f, 0.3f, 2, etc.)
+- Inconsistent naming conventions
+- Minimal error handling
+- No automated testing framework
+
+### Technical Debt Assessment
+- **High**: Static dependency management
+- **Medium**: Performance optimization needs
+- **Medium**: VR platform compatibility issues
+- **Low**: Code documentation and standards
+
+## 📊 Research Findings & User Study Results
+
+### Heart Rate Analysis
+- **Target Zone**: 120-140 BPM (moderate-intensity exercise)
+- **Achievement Rate**: 5 out of 7 participants maintained target heart rate
+- **Peak Performance**: Boxing tracks (Tracks 2 & 3) showed optimal heart rate response
+- **Duration**: Sustained target zone for ~5 minutes during boxing segments
+
+### User Satisfaction Metrics
+- **Exercise Encouragement**: 87.5% would exercise more often using VR
+- **Workout Enjoyment**: 75% enjoyed the VR workout experience  
+- **Ease of Use**: 62% satisfied with gameplay accessibility
+- **Preferred Activity**: Boxing workouts rated highest (60% preference)
+
+### Technical Challenges Identified
+- **VR Hardware**: Headset comfort and sweat accumulation major issues
+- **Platform Stability**: Oculus Airlink connectivity problems
+- **Performance**: Frame rate drops during cube spawning phases
+- **Motion Sickness**: Visual effects had to be removed due to discomfort
+
+### Research Validation
+The study successfully validated that VR fitness applications can encourage exercise participation, with strong user engagement and physiological benefits. However, hardware limitations and software optimization remain significant barriers to mainstream adoption.
+
+## 🎵 Audio System
+
+The game features a beat-detection system that synchronizes gameplay with music:
+- BPM-based spawning system
+- Multiple audio tracks per level
+- SFX integration with gameplay events
+- Voice recording playback system
+
+## 🏆 Achievements & Learning Outcomes
+
+This project demonstrates:
+- VR game development proficiency
+- Event-driven programming patterns
+- Unity XR Toolkit implementation
+- Audio-visual synchronization
+- User experience design for VR
+
+## 🔮 Future Enhancements
+
+### Immediate Improvements
+- Implement object pooling for better performance
+- Add comprehensive error handling
+- Refactor static dependencies into dependency injection
+- Add unit tests for core gameplay logic
+
+### Feature Expansions
+- Custom song import system
+- Multiplayer support
+- Achievement system
+- Fitness tracking and analytics
+- More diverse gameplay mechanics
+
+## 📝 Development Notes
+
+This was developed as a final year university project focusing on VR fitness applications. The codebase shows solid understanding of Unity development and VR principles, though it exhibits typical characteristics of academic projects with room for production-level improvements.
+
+### Known Issues
+- Some unused variables and commented code remain
+- Inconsistent naming conventions in places
+- Limited error recovery mechanisms
+- No save/load system for progress persistence
+
+## 📞 Contact
+
+[Samuel Dawid]  
+[samuelkrzyszpien@gmail.com]  
+[Universit of Greenwich]
+
+## 📄 License
+
+This project was created for educational purposes as part of a final year university project.
+
+---
+
+**Note**: This is an academic project demonstrating VR game development concepts. The code reflects learning progression and experimentation rather than production-ready standards.
