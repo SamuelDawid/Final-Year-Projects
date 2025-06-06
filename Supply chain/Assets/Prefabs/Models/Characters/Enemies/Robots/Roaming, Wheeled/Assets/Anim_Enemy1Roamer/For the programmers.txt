@@ -1,0 +1,17 @@
+For whoever is going to make the triggers for the animations, this is a short description of how I view this enemy behaviour: 
+
+Normally the robot plays the Idle animation and works in the factory.
+
+If there is a way to loop the idle animation with some offset please do so, otherwise it looks like it's spinning fast lol.
+
+If the player gets too close, the robot will get triggered and play the Trigger animation.
+The robot will get closer to the player, using the walking animation. At the moment the robot has got only one attack animation, it's very slow and easy to dodge since the robot charges up a lot before hitting, but if you don't manage to avoid it you will receive a lot of damage.
+
+If the player hits the robot this will play immediately the Hitstun animation which has priority over everything else.
+
+This means the enemy will stop if you attack before him. 
+
+It would be very cool if under certain conditions the enemy could not be stopped: in some games if the enemies are already halfway through playing their attack animation, they can't be interrupted, this mechanic in games is called superarmor.
+
+If you kill the robot, the death animation will play. We will need to make some smoke particle effect, explosion effect in unity and make the robot disappear.
+

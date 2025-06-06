@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53241b252cbb9c49ac80b70bea97748, type: 3}
+  m_Name: '{Weapon} Mop'
+  m_EditorClassIdentifier: 
+  givenID: 200
+  givenName: Mop
+  givenDescription: An ordinary mop. Weak, but better than nothing...
+  givenWeapon: {fileID: 3292629160016775243, guid: 23456b84a8c0b8545b5f1319d9802d47, type: 3}
+  givenSprite: {fileID: -195775039062335961, guid: 1ef65a39a2f59b14dbf325553d21da50, type: 3}
+  givenAttack: 2
+  givenDefense: 1
+  givenSpeed: 0.8
+  givenRequiredCraftingMaterials: 
+  weaponRef: {fileID: 0}

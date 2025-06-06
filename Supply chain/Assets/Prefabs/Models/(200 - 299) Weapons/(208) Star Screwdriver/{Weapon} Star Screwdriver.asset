@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53241b252cbb9c49ac80b70bea97748, type: 3}
+  m_Name: '{Weapon} Star Screwdriver'
+  m_EditorClassIdentifier: 
+  givenID: 208
+  givenName: Star Screwdriver
+  givenDescription: It really shines FYI
+  givenWeapon: {fileID: 7670832573799886194, guid: 3d08faa2e12b6114ba92b01ebaa7565d, type: 3}
+  givenSprite: {fileID: 8593028803162314119, guid: 20cda7c000075d3469bc1db99ae3ef36, type: 3}
+  givenAttack: 4
+  givenDefense: 0
+  givenRequiredCraftingMaterials: 2e0100002e01000030010000310100003101000031010000
+  weaponRef: {fileID: 0}

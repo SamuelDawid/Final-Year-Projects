@@ -1,0 +1,16 @@
+												PLAYER & ENEMY HP
+________________________________________________________________
+
+---> TOPIC: MAIN SCRIPTS:
+
+- 'IDamage' (interface; has 'hpModification', in which you can modify the HP of the player and the enemy)
+- 'JPlayerMovement' (Has 'IDamage')
+- 'AIController' (Has 'IDamage')
+
+_____________________________
+
+---> TOPIC: SETUP
+
+- If you want anything else to be damaged, put the 'IDamage' (NOT 'idamage') script onto to. 
+- The 'hpModification' function allows you to modify the object's HP. Make sure you have a reference to the object's HP though
+- You need to pass in a float, which is the amount of damage you want to inflict. Make sure to set it as a negative number (e.g. -40)

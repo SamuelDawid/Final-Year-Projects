@@ -1,0 +1,13 @@
+ALL THINGS WITHIN THE FOLDER NEEDS TO BE INCLUDED WITHIN THE SCENE!
+
+Make sure to unpack all prefabs
+
+1) For whatever ground that's there, put a rigidbody on it and set it's physics material to 'Ground'
+
+2) Go into:
+
+'{LIST} Elements' > 'Player 2' > '[Camera] Player', and within the camera component, go to 'Stack'. Now press
+the plus button, and put the cameras in this order:
+
+- [Camera] Keycard FIRST
+- [Camera] UI SECOND

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53241b252cbb9c49ac80b70bea97748, type: 3}
+  m_Name: '{Weapon} Saw'
+  m_EditorClassIdentifier: 
+  givenID: 202
+  givenName: Saw
+  givenDescription: Quite powerful. Be careful with it
+  givenWeapon: {fileID: 8754875528929527629, guid: 5adb8172f726f4a469e4d3da12d9c060, type: 3}
+  givenSprite: {fileID: 4632403095980266537, guid: 718f8b92d2396fd4d8e332d3c98fd879, type: 3}
+  givenAttack: 6
+  givenDefense: -3
+  givenSpeed: 1.1
+  givenRequiredCraftingMaterials: 2d0100002d0100002e01000030010000300100003001000030010000
+  weaponRef: {fileID: 0}

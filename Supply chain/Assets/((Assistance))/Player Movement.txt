@@ -1,0 +1,51 @@
+PLAYER MOVEMENT
+
+________________________________________________________________
+
+---> TOPIC: MAIN SCRIPTS:
+
+- 'PlayerMovement' (Abstract class, used as a base for the player's movement, actions, etc)
+- 'NormalPlayerMovement' (Normal gameplay; inherits from 'PlayerMovement')
+- 'VRPlayerMovement' (VR gameplay; inherits from 'PlayerMovement')
+
+_________________________________________
+
+---> TOPIC: IMPORTANT!!!
+
+NOTE: It's absolutely VITAL for the 'VRPlayerMovement' script to inherit from the 'PlayerMovement' script,
+and to have this within it: 
+
+//////
+
+    void Awake()
+    {
+        AwakeConditions();
+        rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
+    }
+
+    void Start()
+    { StartConditions(); }
+
+    void Update()
+    { GeneralActions(); }
+
+    void FixedUpdate()
+    { MovementStates(); }
+
+    public override void Movement()
+    {
+        movement = orientation.forward * Input.GetAxisRaw("Vertical") + orientation.right * Input.GetAxisRaw("Horizontal");
+        transform.rotation = new Quaternion(transform.rotation.x, playerCamera.transform.rotation.y, transform.rotation.z, 1);
+        base.Movement();
+    }
+
+/////
+
+...as the gameplay would not work without it
+
+_________________________________________
+
+---> TOPIC: 'NormalPlayerMovement' & 'VRPlayerMovement' scripts
+
+Only have 1 enabled within the game. Having both on may cause issues
+

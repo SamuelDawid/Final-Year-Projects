@@ -1,0 +1,66 @@
+																PICKUP SYSTEM
+___________________________________________________________________________________________________________
+
+---> TOPIC: MAIN SCRIPTS:
+___________________________
+
+- 'CentralPickupStructure' (Abstract class; 'Key Item' and 'NormalObjects' inherit from it)
+- 'Key Item' (Place on the object that you want to pick up)
+- 'Key Item Identification' (Place on the 'Key Item Identification Template' Prefab; see Line 55)
+- 'NormalObjects' (Place on objects that aren't key items, but can be picked up; used on the AI/Enemies as well)
+- 'Pickup System' (Place on the player's camera; see line 56)
+
+____________________________
+
+---> TOPIC: SETUP:
+____________________________
+
+For the object that you want to pick up...
+
+1) Change layer to 'GrabbableObjects'
+2) Attach rigidbody component
+3) Add script 'Key Item' to it. It's serialized parameters:
+
+	- Launch Speed:	 How fast you grab the object, and how fast and far it goes when released (around 10 - 15, depends on experience)
+	- is Rotatable:	 If you can rotate it (uses the X, Y, Z keys; can change controls through the 'GlobalScript' script (you'll see it at the top))
+	- Rotate Speed:  Rotation Speed (Around 3, but again preference)
+	- Info KID:
+		
+		1) Go into: 'Prefabs' > 'Models' > 'Key Items (100 - 199)
+		
+			(If you want, look at the 'Gear' key item as an example of how to set up a key item)
+
+		2) Create a new folder, name it the key item's name. Within, store the object as a prefab
+
+		3) Right Click > 'Create' > 'Items' > 'Crafting Materials' to create a scriptable object of crafting materials
+
+		4) (Important) IDs are in order of folder creation. Set the ID field to the number that's after the ID number in the folder before the one you created. 
+		   (e.g. 1st folder? Set ID to 100; 2nd folder? Set ID to 101)
+
+		5) Fill in all of the fields (Name, Prefab (NOT FBX) of object, sprite of image, etc)
+
+		6) Put the created scriptable object as 'info KID'
+
+	- Key Item Type Sprite: Add the 'Key Icon' Sprite
+
+4) In the Hierarchy in the 'Final Gameplay' scene, go to '{LIST} Systems, Holders, etc' > '--> Item Registration Holder'. 
+
+5) You'll see the 'Item Registration' Script. Under 'Key Items', put the created script object within the list
+
+6) Go into 'Assets' > 'Prefabs' > 'UI' > 'Gameplay' > 'Identifications' > '[Tmpt] Key Item Identification' and put the Key Item Identification Template
+prefab as a child of the game object that you want to pick up
+
+----------------------------------------------------------------------------------------------------------------------------
+
+---> TOPIC: KEY ITEM PICKUP ISSUES
+
+In the event that picking up key items doesn't work properly or at all, please try either of these:
+
+1)
+
+- (HIERARCHY) '{LIST} Elements' > 'Player' > '[Camera] Player'
+- (INSPECTOR) 'Pickup System (Script)' > 'Ray Distance': Modify the ray distance (ideally between 3 - 10, but if higher works then that's fine)
+
+2) 
+
+- Modify the key item's Launch Speed parameter: Make launch speed higher (differs upon object type)
